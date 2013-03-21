@@ -1,0 +1,27 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Kap1_3;
+
+/**
+ *
+ * @author JOHAND8
+ */
+public class Namn {
+    public static void main(String[] args) {
+        
+        String namn = "Johan Andersson";
+        
+        
+        for (int i = 0; i < namn.length(); i++) {
+            System.out.print(namn.charAt(i));
+        }
+        System.out.println("\nLängd: " + namn.length());
+        for (int i = namn.length()-1; i >= 0; i--) {
+            System.out.print(namn.charAt(i));
+            
+        }
+        
+    }//end main
+}//end class
